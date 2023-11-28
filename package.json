@@ -1,0 +1,42 @@
+{
+  "name": "paganinibackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/",
+    "dev": "nodemon src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohusemer/paganiniBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohusemer/paganiniBackend/issues"
+  },
+  "homepage": "https://github.com/rohusemer/paganiniBackend#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "braintree": "^3.12.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0",
+    "moongose": "^1.0.0",
+    "morgan": "^1.10.0",
+    "order-id": "^2.1.2",
+    "redis": "^4.2.0",
+    "twilio": "^3.80.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
